@@ -40,7 +40,7 @@ Author: Richard Foltyn
 ## Creating a Conda environment
 
 Using the Anaconda Terminal (Windows) or Terminal (Mac), you can use 
-the environment definition file ([enrivonment.yml](enrivonment.yml)) provided in this repository to create 
+the environment definition file ([environment.yml](environment.yml)) provided in this repository to create 
 a conda environment called `FIE463`:
 ```bash
 conda env create -f environment.yml
