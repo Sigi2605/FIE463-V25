@@ -18,12 +18,12 @@ Author: Richard Foltyn
 
 ### Forking
 
-1. Click on the ![Fork](images/fork.png) icon to fork this repository (create your own personal copy)
-2. You need to click on `Sync Fork` to get new commits made to this repository into your forked version.
+- Click on the `Fork` icon to fork this repository (create your own personal copy)
+- In the future, you need to click on `Sync Fork` to get new commits made to this repository into your forked version.
 
 ### Cloning
 
-1. Click on the ![Code](images/code.png) icon to clone the repository to your computer
+1. Click on the green `Code` icon to clone the repository to your computer
 2. Select HTTPS or SSH depending on your authentication method (HTTPS for Windows, SSH for Mac) and copy the URL.
 3. You can clone the repository directly in Visual Studio Code, or use the command line:
 

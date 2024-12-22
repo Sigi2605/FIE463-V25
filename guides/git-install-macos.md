@@ -61,3 +61,27 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKjhZ7rUTC3ldXmp+dBOShXU8907YVHVWV3T7ciJ3xoW
 ```
 See [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) 
 on how to add the key to your GitHub account.
+
+## GitHub integration
+
+
+### Cloning from GitHub
+
+If you want to clone an existing repository hosted in GitHub (for example the [course 
+repository](https://github.com/richardfoltyn/FIE463-V25)), process as follows:
+```bash
+git clone git@github.com:richardfoltyn/FIE463-V25.git
+```
+
+### Adding a GitHub remote to your existing repository
+
+1.  Create a new repository on GitHub by clicking, either by clicking 
+    on the `+` in the top-right corner or use [this link](https://github.com/new).
+2.  Pick a name, say `test`.
+3.  Change to your local repository in the terminal and type the following:
+```bash
+git remote add origin git@github.com:yourname/test.git
+git branch -M main
+git push -u origin main
+```
+For this to work, you need to have the SSH keys configured as described above.
