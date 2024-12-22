@@ -8,7 +8,7 @@ on Windows, as well as the bash shell on Linux.
 
 -   Note that in the examples below, the `#` is the start of a comment and not
     part of the actual command.
--   Generate avoid spaces in file and folder names. If you must use spaces,
+-   In general, avoid spaces in file and folder names. If you must use spaces,
     you need to wrap the name in double quotes like this `"file name.py"`.
 
 ## `cd`: change directory
