@@ -8,11 +8,22 @@ Course material for spring term 2025 (V25)
 Author: Richard Foltyn
 
 
-## Course outline 
+## Course outline (preliminary and incomplete)
 
-| Week | Day | Topic | Notes & Exercises | Solutions |
-|------|-----|-------|----------------------|------------------------------------------|
-|    |  |  |  |  |
+`L` = Lecture, `W` = Workshop
+
+
+| Week | Day | L/W | Topic | Notes & Exercises | Solutions |
+|------|-----|-----|-------|----------------------|------------------------------------------|
+|  1   | Thu, Jan 9 | `L` | Introduction | [Slides](lectures/lecture01/lecture01.pdf) | N/A  |
+|  2   | Tue, Jan 14 | `L` | Python basics | [Notebook](lectures/lecture02/lecture02.ipynb), [PDF](lectures/lecture02/lecture02.pdf) | N/A  |
+|      | Thu, Jan 16 | `W` | Python basics | TBA | TBA |
+|  3   | Tue, Jan 21 | `L` | Control flow & loops | [Notebook](lectures/lecture03/lecture03.ipynb), [PDF](lectures/lecture03/lecture03.pdf) | N/A  |
+|      | Thu, Jan 23 | `W` | Control flow & loops | TBA | TBA |
+|  4   | Tue, Jan 28 | `L` | Functions & modules | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
+|      | Thu, Jan 30 | `W` | Functions & modules | TBA | TBA |
+|  5   | Tue, Feb 4 | `L` | Plotting | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
+|      | Thu, Feb 6 | `W` | Plotting | TBA | TBA |
 
 ## Guides
 
