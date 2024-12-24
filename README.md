@@ -56,7 +56,7 @@ install Anaconda (Python), Visual Studio Code, and git version control.
 
 ## Creating a Conda environment
 
-Using the Anaconda Terminal (Windows) or Terminal (Mac), you can use 
+Using the Anaconda Prompt (Windows) or Terminal (Mac), you can use 
 the environment definition file ([environment.yml](environment.yml)) provided in this repository to create 
 a conda environment called `FIE463`:
 ```bash
