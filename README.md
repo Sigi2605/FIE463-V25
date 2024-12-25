@@ -10,6 +10,8 @@ Author: Richard Foltyn
 
 ## Course outline (preliminary and incomplete)
 
+The course material for _Part 1: Introduction to Python_, is listed below. The material for parts 2 and 3 will be added later.
+
 `L` = Lecture, `W` = Workshop
 
 
