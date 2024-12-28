@@ -10,7 +10,7 @@ Author: Richard Foltyn
 
 ## Course outline (preliminary and incomplete)
 
-The course material for _Part 1: Introduction to Python_, is listed below. The material for parts 2 and 3 will be added later.
+The course material for _Part 1: Introduction to Python_ is listed below. The material for parts 2 and 3 will be added later.
 
 `L` = Lecture, `W` = Workshop
 
@@ -74,6 +74,8 @@ conda env create -f environment.yml
    general intro to Python with a focus on data analysis, available as PDF.
 3. [QuantEcon](https://quantecon.org/lectures/): Python programming for economics & finance
     (beginners & advanced)
+3. [Introduction to Programming and Numerical Analysis](https://sites.google.com/view/numeconcph-introprog/home): 
+    Python for macroeconomics, taught at the University of Copenhagen
 
 ## License
 
