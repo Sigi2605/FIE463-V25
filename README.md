@@ -24,8 +24,8 @@ The course material for _Part 1: Introduction to Python_ is listed below. The ma
 |      | Thu, Jan 23 | `W` | Control flow & loops | [Notebook](workshops/workshop02/workshop02.ipynb), [PDF](workshops/workshop02/workshop02.pdf) | TBA |
 |  4   | Tue, Jan 28 | `L` | Functions & modules | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
 |      | Thu, Jan 30 | `W` | Functions & modules | [Notebook](workshops/workshop03/workshop03.ipynb), [PDF](workshops/workshop03/workshop03.pdf) | TBA |
-|  5   | Tue, Feb 4 | `L` | Plotting | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
-|      | Thu, Feb 6 | `W` | Plotting | TBA | TBA |
+|  5   | Tue, Feb 4 | `L` | Random numbers & plotting | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
+|      | Thu, Feb 6 | `W` | Random numbers & plotting | [Notebook](workshops/workshop04/workshop04.ipynb), [PDF](workshops/workshop04/workshop04.pdf) | TBA |
 
 ## Guides
 
