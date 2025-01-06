@@ -8,7 +8,8 @@ and type
 ```bash
 git --version
 ```
-If this returns without an error message, you already have git installed.
+If this returns without an error message, you already have git installed
+and can skip the next step.
 
 
 ## Installing git
@@ -40,7 +41,7 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@student.nhh.no
 ```
 
-## SSH keys for GitHub
+## SSH keys for GitHub (optional)
 
 In order to seamlessly access your remote repositories on GitHub, 
 you need to create a so-called SSH key on your local computer and 
@@ -62,7 +63,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKjhZ7rUTC3ldXmp+dBOShXU8907YVHVWV3T7ciJ3xoW
 See [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) 
 on how to add the key to your GitHub account.
 
-## GitHub integration
+## GitHub integration (optional)
 
 
 ### Cloning from GitHub

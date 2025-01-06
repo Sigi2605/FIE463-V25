@@ -19,7 +19,7 @@
     [this guide](https://docs.anaconda.com/anaconda/install/) 
     if needed.
 
-## Create an Anaconda environment
+## Create an Anaconda environment (optional)
 
 - The Anaconda installation comes with a default environment called `base`
   which contains most if not all packages required for this course.
