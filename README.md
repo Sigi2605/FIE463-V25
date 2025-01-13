@@ -17,15 +17,17 @@ The course material for _Part 1: Introduction to Python_ is listed below. The ma
 
 | Week | Day | L/W | Topic | Notes & Exercises | Solutions |
 |------|-----|-----|-------|----------------------|------------------------------------------|
-|  1   | Thu, Jan 9 | `L` | Introduction | [Slides](lectures/lecture00/lecture00.pdf) | N/A  |
-|  2   | Tue, Jan 14 | `L` | Python basics | [Notebook](lectures/lecture01/lecture01.ipynb), [PDF](lectures/lecture01/lecture01.pdf) | N/A  |
+|  0   | Thu, Jan 9 | `L` | Introduction | [Slides](lectures/lecture00/lecture00.pdf) | N/A  |
+|  1   | Tue, Jan 14 | `L` | Python basics | [Notebook](lectures/lecture01/lecture01.ipynb), [PDF](lectures/lecture01/lecture01.pdf) | N/A  |
 |      | Thu, Jan 16 | `W` | Python basics | [Notebook](workshops/workshop01/workshop01.ipynb), [PDF](workshops/workshop01/workshop01.pdf) | TBA |
-|  3   | Tue, Jan 21 | `L` | Control flow & loops | [Notebook](lectures/lecture02/lecture02.ipynb), [PDF](lectures/lecture02/lecture02.pdf) | N/A  |
+|  2   | Tue, Jan 21 | `L` | Control flow & loops | [Notebook](lectures/lecture02/lecture02.ipynb), [PDF](lectures/lecture02/lecture02.pdf) | N/A  |
 |      | Thu, Jan 23 | `W` | Control flow & loops | [Notebook](workshops/workshop02/workshop02.ipynb), [PDF](workshops/workshop02/workshop02.pdf) | TBA |
-|  4   | Tue, Jan 28 | `L` | Functions & modules | [Notebook](lectures/lecture03/lecture03.ipynb), [PDF](lectures/lecture03/lecture03.pdf) | N/A  |
+|  3   | Tue, Jan 28 | `L` | Functions & modules | [Notebook](lectures/lecture03/lecture03.ipynb), [PDF](lectures/lecture03/lecture03.pdf) | N/A  |
 |      | Thu, Jan 30 | `W` | Functions & modules | [Notebook](workshops/workshop03/workshop03.ipynb), [PDF](workshops/workshop03/workshop03.pdf) | TBA |
-|  5   | Tue, Feb 4 | `L` | Random numbers & plotting | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
+|  4   | Tue, Feb 4 | `L` | Random numbers & plotting | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
 |      | Thu, Feb 6 | `W` | Random numbers & plotting | [Notebook](workshops/workshop04/workshop04.ipynb), [PDF](workshops/workshop04/workshop04.pdf) | TBA |
+|  5   | Tue, Feb 11 | `L` | Numerical optimization | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
+|      | Thu, Feb 13 | `W` | Numerical optimization | [Notebook](workshops/workshop05/workshop05.ipynb), [PDF](workshops/workshop05/workshop05.pdf) | TBA |
 
 ## Guides
 
