@@ -21,7 +21,7 @@ The course material for _Part 1: Introduction to Python_ is listed below. The ma
 |  1   | Tue, Jan 14 | `L` | Python basics | [Notebook](lectures/lecture01/lecture01.ipynb), [PDF](lectures/lecture01/lecture01.pdf) | N/A  |
 |      | Thu, Jan 16 | `W` | Python basics | [Notebook](workshops/workshop01/workshop01.ipynb), [PDF](workshops/workshop01/workshop01.pdf) | [Notebook](workshops/workshop01/workshop01-solution.ipynb), [PDF](workshops/workshop01/workshop01-solution.pdf) |
 |  2   | Tue, Jan 21 | `L` | Control flow & loops | [Notebook](lectures/lecture02/lecture02.ipynb), [PDF](lectures/lecture02/lecture02.pdf) | N/A  |
-|      | Thu, Jan 23 | `W` | Control flow & loops | [Notebook](workshops/workshop02/workshop02.ipynb), [PDF](workshops/workshop02/workshop02.pdf) | TBA |
+|      | Thu, Jan 23 | `W` | Control flow & loops | [Notebook](workshops/workshop02/workshop02.ipynb), [PDF](workshops/workshop02/workshop02.pdf) | [Notebook](workshops/workshop02/workshop02-solution.ipynb), [PDF](workshops/workshop02/workshop02-solution.pdf) |
 |  3   | Tue, Jan 28 | `L` | Functions & modules | [Notebook](lectures/lecture03/lecture03.ipynb), [PDF](lectures/lecture03/lecture03.pdf) | N/A  |
 |      | Thu, Jan 30 | `W` | Functions & modules | [Notebook](workshops/workshop03/workshop03.ipynb), [PDF](workshops/workshop03/workshop03.pdf) | TBA |
 |  4   | Tue, Feb 4 | `L` | Random numbers & plotting | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
