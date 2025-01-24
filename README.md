@@ -30,6 +30,8 @@ The course material for _Part 1: Introduction to Python_ is listed below. The ma
 |      | Thu, Feb 13 | `W` | Numerical optimization | [Notebook](workshops/workshop05/workshop05.ipynb), [PDF](workshops/workshop05/workshop05.pdf) | TBA |
 |  6   | Tue, Feb 18 | `L` | General equilibrium | [Notebook](lectures/lecture06/lecture06.ipynb), [PDF](lectures/lecture06/lecture06.pdf) | N/A  |
 |      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | TBA |
+|  7   | Tue, Feb 25 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
+|      | Thu, Feb 27 | `W` | Stochastic processes & wealth dynamics | [Notebook](workshops/workshop07/workshop07.ipynb), [PDF](workshops/workshop07/workshop07.pdf) | TBA |
 
 ## Guides
 
