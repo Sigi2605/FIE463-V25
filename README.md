@@ -74,7 +74,7 @@ conda env create -f environment.yml
 
 1. [Think Python](https://allendowney.github.io/ThinkPython/index.html) by Allen B. Downey:
    general intro to Python, chapters are available as Jupyter notebooks.
-2. [Everybody](https://www.py4e.com/book) by Charles R. Severance:
+2. [Python for Everybody](https://www.py4e.com/book) by Charles R. Severance:
    general intro to Python with a focus on data analysis, available as PDF.
 3. [QuantEcon](https://quantecon.org/lectures/): Python programming for economics & finance
     (beginners & advanced)
