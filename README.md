@@ -21,9 +21,9 @@ The course material for _Part 1: Introduction to Python_ is listed below. The ma
 |  1   | Tue, Jan 14 | `L` | Python basics | [Notebook](lectures/lecture01/lecture01.ipynb), [PDF](lectures/lecture01/lecture01.pdf) | N/A  |
 |      | Thu, Jan 16 | `W` | Python basics | [Notebook](workshops/workshop01/workshop01.ipynb), [PDF](workshops/workshop01/workshop01.pdf) | [Notebook](workshops/workshop01/workshop01-solution.ipynb), [PDF](workshops/workshop01/workshop01-solution.pdf) |
 |  2   | Tue, Jan 21 | `L` | Control flow & loops | [Notebook](lectures/lecture02/lecture02.ipynb), [PDF](lectures/lecture02/lecture02.pdf) | N/A  |
-|      | Thu, Jan 23 | `W` | Control flow & loops | [Notebook](workshops/workshop02/workshop02.ipynb), [PDF](workshops/workshop02/workshop02.pdf) | TBA |
+|      | Thu, Jan 23 | `W` | Control flow & loops | [Notebook](workshops/workshop02/workshop02.ipynb), [PDF](workshops/workshop02/workshop02.pdf) | [Notebook](workshops/workshop02/workshop02-solution.ipynb), [PDF](workshops/workshop02/workshop02-solution.pdf) |
 |  3   | Tue, Jan 28 | `L` | Functions & modules | [Notebook](lectures/lecture03/lecture03.ipynb), [PDF](lectures/lecture03/lecture03.pdf) | N/A  |
-|      | Thu, Jan 30 | `W` | Functions & modules | [Notebook](workshops/workshop03/workshop03.ipynb), [PDF](workshops/workshop03/workshop03.pdf) | TBA |
+|      | Thu, Jan 30 | `W` | Functions & modules | [Notebook](workshops/workshop03/workshop03.ipynb), [PDF](workshops/workshop03/workshop03.pdf) | [Notebook](workshops/workshop03/workshop03-solution.ipynb), [PDF](workshops/workshop03/workshop03-solution.pdf) |
 |  4   | Tue, Feb 4 | `L` | Random numbers & plotting | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
 |      | Thu, Feb 6 | `W` | Random numbers & plotting | [Notebook](workshops/workshop04/workshop04.ipynb), [PDF](workshops/workshop04/workshop04.pdf) | TBA |
 |  5   | Tue, Feb 11 | `L` | Numerical optimization | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
@@ -74,7 +74,7 @@ conda env create -f environment.yml
 
 1. [Think Python](https://allendowney.github.io/ThinkPython/index.html) by Allen B. Downey:
    general intro to Python, chapters are available as Jupyter notebooks.
-2. [Everybody](https://www.py4e.com/book) by Charles R. Severance:
+2. [Python for Everybody](https://www.py4e.com/book) by Charles R. Severance:
    general intro to Python with a focus on data analysis, available as PDF.
 3. [QuantEcon](https://quantecon.org/lectures/): Python programming for economics & finance
     (beginners & advanced)
