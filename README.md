@@ -10,8 +10,6 @@ Author: Richard Foltyn
 
 ## Course outline (preliminary and incomplete)
 
-The course material for _Part 1: Introduction to Python_ is listed below. The material for parts 2 and 3 will be added later.
-
 `L` = Lecture, `W` = Workshop
 
 
@@ -32,6 +30,7 @@ The course material for _Part 1: Introduction to Python_ is listed below. The ma
 |      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | TBA |
 |  7   | Tue, Feb 25 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
 |      | Thu, Feb 27 | `W` | Stochastic processes & wealth dynamics | [Notebook](workshops/workshop07/workshop07.ipynb), [PDF](workshops/workshop07/workshop07.pdf) | TBA |
+|  —   | — | `L` | Markov chains & Consumption-based asset pricing [Optional] | [Notebook](lectures/lecture08/lecture08.ipynb), [PDF](lectures/lecture08/lecture08.pdf) | N/A  |
 
 ## Guides
 
