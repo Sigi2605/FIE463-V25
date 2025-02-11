@@ -10,7 +10,7 @@ Author: Richard Foltyn
 
 ## Course outline (preliminary and incomplete)
 
-`L` = Lecture, `W` = Workshop
+`L` = Lecture, `W` = Workshop, `O` = Optional
 
 
 | Week | Day | L/W | Topic | Notes & Exercises | Solutions |
@@ -30,7 +30,12 @@ Author: Richard Foltyn
 |      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | TBA |
 |  7   | Tue, Feb 25 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
 |      | Thu, Feb 27 | `W` | Stochastic processes & wealth dynamics | [Notebook](workshops/workshop07/workshop07.ipynb), [PDF](workshops/workshop07/workshop07.pdf) | TBA |
-|  —   | — | `L` | Markov chains & Consumption-based asset pricing [Optional] | [Notebook](lectures/lecture08/lecture08.ipynb), [PDF](lectures/lecture08/lecture08.pdf) | N/A  |
+|  —   | — | `O` | Markov chains & Consumption-based asset pricing | [Notebook](lectures/lecture_markov/lecture_markov.ipynb), [PDF](lectures/lecture_markov/lecture_markov.pdf) | N/A  |
+|  8   | Tue, Mar 4 | `L` | Introduction to pandas | [Notebook](lectures/lecture08/lecture08.ipynb), [PDF](lectures/lecture08/lecture08.pdf) | N/A  |
+|      | Thu, Mar 6 | `W` | Introduction to pandas | [Notebook](workshops/workshop08/workshop08.ipynb), [PDF](workshops/workshop08/workshop08.pdf) | TBA |
+
+
+
 
 ## Guides
 
