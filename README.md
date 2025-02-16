@@ -25,7 +25,7 @@ Author: Richard Foltyn
 |  4   | Tue, Feb 4 | `L` | Random numbers & plotting | [Notebook](lectures/lecture04/lecture04.ipynb), [PDF](lectures/lecture04/lecture04.pdf) | N/A  |
 |      | Thu, Feb 6 | `W` | Random numbers & plotting | [Notebook](workshops/workshop04/workshop04.ipynb), [PDF](workshops/workshop04/workshop04.pdf) | [Notebook](workshops/workshop04/workshop04-solution.ipynb), [PDF](workshops/workshop04/workshop04-solution.pdf) |
 |  5   | Tue, Feb 11 | `L` | Numerical optimization | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
-|      | Thu, Feb 13 | `W` | Numerical optimization | [Notebook](workshops/workshop05/workshop05.ipynb), [PDF](workshops/workshop05/workshop05.pdf) | TBA |
+|      | Thu, Feb 13 | `W` | Numerical optimization | [Notebook](workshops/workshop05/workshop05.ipynb), [PDF](workshops/workshop05/workshop05.pdf) | [Notebook](workshops/workshop05/workshop05-solution.ipynb), [PDF](workshops/workshop05/workshop05-solution.pdf) |
 |  6   | Tue, Feb 18 | `L` | General equilibrium | [Notebook](lectures/lecture06/lecture06.ipynb), [PDF](lectures/lecture06/lecture06.pdf) | N/A  |
 |      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | TBA |
 |  7   | Tue, Feb 25 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
@@ -33,7 +33,8 @@ Author: Richard Foltyn
 |  —   | — | `O` | Markov chains & Consumption-based asset pricing | [Notebook](lectures/lecture_markov/lecture_markov.ipynb), [PDF](lectures/lecture_markov/lecture_markov.pdf) | N/A  |
 |  8   | Tue, Mar 4 | `L` | Introduction to pandas | [Notebook](lectures/lecture08/lecture08.ipynb), [PDF](lectures/lecture08/lecture08.pdf) | N/A  |
 |      | Thu, Mar 6 | `W` | Introduction to pandas | [Notebook](workshops/workshop08/workshop08.ipynb), [PDF](workshops/workshop08/workshop08.pdf) | TBA |
-
+|  9   | Tue, Mar 18 | `L` | Aggregation and merging | [Notebook](lectures/lecture09/lecture09.ipynb), [PDF](lectures/lecture09/lecture09.pdf) | N/A  |
+|      | Thu, Mar 20 | `W` | Aggregation and merging | [Notebook](workshops/workshop09/workshop09.ipynb), [PDF](workshops/workshop09/workshop09.pdf) | TBA |
 
 
 
