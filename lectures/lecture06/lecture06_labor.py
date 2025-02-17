@@ -30,13 +30,13 @@ class Equilibrium:
     Container to store equilibrium allocations and prices.
     """
     par: Parameters = None  # Parameters used to compute equilibrium
-    c: float = None
-    h: float = None
-    r: float = None
-    w: float = None
-    L: float = None
-    K: float = None
-    Y: float = None
+    c: float = None         # Optimal consumption
+    h: float = None         # Optimal hours
+    r: float = None         # Interest rate
+    w: float = None         # Wage rate
+    L: float = None         # Labor demand
+    K: float = None         # Capital demand
+    Y: float = None         # Output
 
 
 def util(c, h, par: Parameters):
