@@ -3,6 +3,7 @@ Template for workshop 6, exercise 2
 """
 
 from dataclasses import dataclass
+from workshop01_ex1 import solve_firm, solve_hh
 
 
 @dataclass
@@ -10,6 +11,7 @@ class Parameters:
     """
     Container to store the problem's parameters.
     """
+    # TODO: Add model parameters
 
 
 @dataclass
@@ -115,7 +117,7 @@ def foc_error(x, par: Parameters):
     Compute errors in first-order conditions of the household problem
     for type 1 and type 2.
 
-    (for bonus question)
+    (for BONUS QUESTION)
 
     Parameters
     ----------
@@ -145,7 +147,7 @@ def compute_equilibrium_root(par):
     Compute the equilibrium of the model by running a root-finder on 
     the household's first-order conditions.
 
-    (for bonus question)
+    (for BONUS QUESTION)
 
     Parameters
     ----------
@@ -171,9 +173,16 @@ if __name__ == '__main__':
     Main script to compute and print the equilibrium of the model.
     """
 
-    # TODO:
-    # 1. Get instance of default parameter values
-    # 2. Solve for equilibrium
-    # 3. Print equilibrium values
-    # 4. Bonus: Use root-finder based on households' first-order conditions
-    # 5. Bonus: Print equilibrium values
+    # Get instance of default parameter values
+    par = Parameters()
+
+    # Solve for equilibrium
+    eq = compute_equilibrium(par)
+
+    # Print equilibrium quantities and prices
+    print_equilibrium(eq)
+
+    # Use root-finder based on households' first-order conditions (bonus question)
+    eq_ = compute_equilibrium_root(par)
+    print('\nEquilibrium computed using root-finder:')
+    print_equilibrium(eq_)
