@@ -28,13 +28,14 @@ Author: Richard Foltyn
 |      | Thu, Feb 13 | `W` | Numerical optimization | [Notebook](workshops/workshop05/workshop05.ipynb), [PDF](workshops/workshop05/workshop05.pdf) | [Notebook](workshops/workshop05/workshop05-solution.ipynb), [PDF](workshops/workshop05/workshop05-solution.pdf) |
 |  6   | Tue, Feb 18 | `L` | General equilibrium | [Notebook](lectures/lecture06/lecture06.ipynb), [PDF](lectures/lecture06/lecture06.pdf) | N/A  |
 |      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | [Notebook](workshops/workshop06/solution/workshop06-solution.ipynb), [PDF](workshops/workshop06/solution/workshop06-solution.pdf)  |
-|  7   | Tue, Feb 25 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
-|      | Thu, Feb 27 | `W` | Stochastic processes & wealth dynamics | [Notebook](workshops/workshop07/workshop07.ipynb), [PDF](workshops/workshop07/workshop07.pdf) | TBA |
+|  7   | Tue, Feb 25 | `L` | Overlapping-generations model | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
+|  8   | Tue, Mar 4 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture08/lecture08.ipynb), [PDF](lectures/lecture08/lecture08.pdf) | N/A  |
+|      | Thu, Mar 6 | `W` | Stochastic processes & wealth dynamics | [Notebook](workshops/workshop08/workshop08.ipynb), [PDF](workshops/workshop08/workshop08.pdf) | TBA |
 |  —   | — | `O` | Markov chains & Consumption-based asset pricing | [Notebook](lectures/lecture_markov/lecture_markov.ipynb), [PDF](lectures/lecture_markov/lecture_markov.pdf) | N/A  |
-|  8   | Tue, Mar 4 | `L` | Introduction to pandas | [Notebook](lectures/lecture08/lecture08.ipynb), [PDF](lectures/lecture08/lecture08.pdf) | N/A  |
-|      | Thu, Mar 6 | `W` | Introduction to pandas | [Notebook](workshops/workshop08/workshop08.ipynb), [PDF](workshops/workshop08/workshop08.pdf) | TBA |
-|  9   | Tue, Mar 18 | `L` | Aggregation and merging | [Notebook](lectures/lecture09/lecture09.ipynb), [PDF](lectures/lecture09/lecture09.pdf) | N/A  |
-|      | Thu, Mar 20 | `W` | Aggregation and merging | [Notebook](workshops/workshop09/workshop09.ipynb), [PDF](workshops/workshop09/workshop09.pdf) | TBA |
+|  9   | Tue, Mar 11 | `L` | Introduction to pandas | [Notebook](lectures/lecture09/lecture09.ipynb), [PDF](lectures/lecture09/lecture09.pdf) | N/A  |
+|      | Thu, Mar 13 | `W` | Introduction to pandas | [Notebook](workshops/workshop09/workshop09.ipynb), [PDF](workshops/workshop09/workshop09.pdf) | TBA |
+|  10   | Tue, Mar 18 | `L` | Aggregation and merging | [Notebook](lectures/lecture10/lecture10.ipynb), [PDF](lectures/lecture10/lecture10.pdf) | N/A  |
+|      | Thu, Mar 20 | `W` | Aggregation and merging | [Notebook](workshops/workshop10/workshop10.ipynb), [PDF](workshops/workshop10/workshop10.pdf) | TBA |
 
 
 
