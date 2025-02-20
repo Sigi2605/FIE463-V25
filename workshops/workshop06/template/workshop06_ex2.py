@@ -3,7 +3,7 @@ Template for workshop 6, exercise 2
 """
 
 from dataclasses import dataclass
-from workshop01_ex1 import solve_firm, solve_hh
+from workshop06_ex1 import solve_firm, solve_hh
 
 
 @dataclass

@@ -27,7 +27,7 @@ Author: Richard Foltyn
 |  5   | Tue, Feb 11 | `L` | Numerical optimization | [Notebook](lectures/lecture05/lecture05.ipynb), [PDF](lectures/lecture05/lecture05.pdf) | N/A  |
 |      | Thu, Feb 13 | `W` | Numerical optimization | [Notebook](workshops/workshop05/workshop05.ipynb), [PDF](workshops/workshop05/workshop05.pdf) | [Notebook](workshops/workshop05/workshop05-solution.ipynb), [PDF](workshops/workshop05/workshop05-solution.pdf) |
 |  6   | Tue, Feb 18 | `L` | General equilibrium | [Notebook](lectures/lecture06/lecture06.ipynb), [PDF](lectures/lecture06/lecture06.pdf) | N/A  |
-|      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | TBA |
+|      | Thu, Feb 20 | `W` | General equilibrium | [Notebook](workshops/workshop06/workshop06.ipynb), [PDF](workshops/workshop06/workshop06.pdf) | [Notebook](workshops/workshop06/solution/workshop06-solution.ipynb), [PDF](workshops/workshop06/solution/workshop06-solution.pdf)  |
 |  7   | Tue, Feb 25 | `L` | Stochastic processes & wealth dynamics | [Notebook](lectures/lecture07/lecture07.ipynb), [PDF](lectures/lecture07/lecture07.pdf) | N/A  |
 |      | Thu, Feb 27 | `W` | Stochastic processes & wealth dynamics | [Notebook](workshops/workshop07/workshop07.ipynb), [PDF](workshops/workshop07/workshop07.pdf) | TBA |
 |  —   | — | `O` | Markov chains & Consumption-based asset pricing | [Notebook](lectures/lecture_markov/lecture_markov.ipynb), [PDF](lectures/lecture_markov/lecture_markov.pdf) | N/A  |
