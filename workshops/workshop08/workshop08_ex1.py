@@ -1,5 +1,5 @@
 """
-Helper functions for Workshop 7, Exercise 1.
+Helper functions for Workshop 8, Exercise 1.
 """
 
 import numpy as np
