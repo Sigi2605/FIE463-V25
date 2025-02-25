@@ -18,20 +18,20 @@ from matplotlib.ticker import PercentFormatter
 @dataclass
 class Parameters:
     """
-    Parameters for the overlapping generations model.
+    Parameters for the OLG model.
     """
     alpha: float = 0.36     # Capital share in production function
-    z: float = 1.0          # TFP 
-    beta: float = 0.96      # Discount factor (0.96 per year, 30-year periods)
-    gamma: float = 2.0      # RRA in utility
     delta: float = 1.0      # Depreciation rate
+    z: float = 1.0          # TFP 
+    beta: float = 0.96**30  # Discount factor (0.96 per year, 30-year periods)
+    gamma: float = 2.0      # RRA in utility
     N: int = 1              # Number of households per cohort  
 
 
 @dataclass
-class Equilibrium:
+class SteadyState:
     """
-    Equilibrium of the overlapping generations model.
+    Steady-state equilibrium of the OLG model.
     """
     par: Parameters = None      # Parameters used to compute equilibrium
     c_y: float = None           # Consumption when young
@@ -152,9 +152,9 @@ def compute_capital_ex_demand(k, par: Parameters):
     return ex_demand
 
 
-def compute_equilibrium(par: Parameters):
+def compute_steady_state(par: Parameters):
     """
-    Compute the equilibrium for the overlapping generations model.
+    Compute the steady-state equilibrium for the OLG model.
 
     Parameters
     ----------
@@ -163,8 +163,8 @@ def compute_equilibrium(par: Parameters):
 
     Returns
     -------
-    eq : Equilibrium
-        Equilibrium of the OLG model
+    eq : SteadyState
+        Steady state equilibrium of the OLG model
     """
 
     # Find the equilibrium k=K/L with a root-finder. Excess demand for capital
@@ -180,7 +180,7 @@ def compute_equilibrium(par: Parameters):
     K = res.root * par.N
 
     # Create instance of equilibrium class
-    eq = Equilibrium(par=par, K=K, L=par.N)
+    eq = SteadyState(par=par, K=K, L=par.N)
 
     # Equilibrium prices
     eq.r, eq.w = compute_prices(eq.K / eq.L, par)
@@ -205,20 +205,20 @@ def compute_equilibrium(par: Parameters):
     return eq
 
 
-def print_equilibrium(eq: Equilibrium):
+def print_steady_state(eq: SteadyState):
     """
     Print equilibrium prices, allocations, and excess demand.
 
     Parameters
     ----------
-    eq : Equilibrium
-        Equilibrium of the OLG model
+    eq : SteadyState
+        SteadyState of the OLG model
     """
 
     # Number of households
     N = eq.par.N
 
-    print('Equilibrium:')
+    print('Steady-state equilibrium:')
     print('  Households:')
     print(f'    c_y = {eq.c_y:.5f}')
     print(f'    c_o = {eq.c_o:.5f}')
@@ -235,7 +235,7 @@ def print_equilibrium(eq: Equilibrium):
     print(f'    Goods market: {(eq.c_y + eq.c_o + eq.a) * N - eq.Y - (1-eq.par.delta) * eq.K:.5e}')
 
 
-def initialize_sim(T, eq: Equilibrium = None):
+def initialize_sim(T, eq: SteadyState = None):
     """
     Initialize simulation instance (allocate arrays for time series).
 
@@ -243,7 +243,7 @@ def initialize_sim(T, eq: Equilibrium = None):
     ----------
     T : int
         Number of periods to simulate
-    eq : Equilibrium, optional
+    eq : SteadyState, optional
         Steady-state equilibrium to use for initial period
     """
 
@@ -276,15 +276,15 @@ def initialize_sim(T, eq: Equilibrium = None):
     return sim
 
 
-def simulate(z_new, eq: Equilibrium, T = 10):
+def simulate_olg(z_new, eq: SteadyState, T = 10):
     """
-    Simulate the transition dynamics of the overlapping generations model.
+    Simulate the transition dynamics of the OLG model.
 
     Parameters
     ----------
     z_new : float
         New level of TFP after the shock.
-    eq : Equilibrium
+    eq : SteadyState
         Initial steady-state equilibrium before the shock.
     T : int
         Number of periods to simulate.
@@ -348,11 +348,11 @@ def plot_simulation(eq, sim, eq_new = None, deviations=True, filename=None):
 
     Parameters
     ----------
-    eq : Equilibrium
+    eq : SteadyState
         The equilibrium containing the initial steady state parameters.
     sim : Simulation
         The simulation containing the time series data.
-    eq_new : Equilibrium, optional
+    eq_new : SteadyState, optional
         The equilibrium containing the new steady state parameters.
     deviations : bool
         If True, plot deviations from the initial steady state instead
@@ -362,12 +362,12 @@ def plot_simulation(eq, sim, eq_new = None, deviations=True, filename=None):
     """
 
     fig, axes = plt.subplots(
-        3, 2, figsize=(6, 8), sharex=True, sharey='row' if deviations else False
+        3, 2, figsize=(6, 6), sharex=True, sharey='row' if deviations else False
     )
 
     # Keyword arguments for time series plots
     kwargs = {
-        'marker': 'o' if len(sim.K) < 20 else None,
+        'marker': 'o' if len(sim.K) < 30 else None,
         'markersize': 4,
         'color': 'steelblue',
     }
@@ -388,7 +388,10 @@ def plot_simulation(eq, sim, eq_new = None, deviations=True, filename=None):
         'label': 'New steady state'
     }
 
-    ylabel = "Deviation from old steady state" if deviations else None
+    if eq_new is not None:
+        ylabel = "Deviation from initial SS" if deviations else None
+    else:
+        ylabel = "Deviation from SS" if deviations else None
 
     # Plot TFP time series
     yvalues = sim.z / eq.par.z - 1 if deviations else sim.z
@@ -441,18 +444,15 @@ def plot_simulation(eq, sim, eq_new = None, deviations=True, filename=None):
     axes[1, 1].set_title("Wage $w$")
 
     # Plot interest rate time series
-    yvalues = sim.r - eq.r if deviations else sim.r
-    axes[2, 0].plot(yvalues, **kwargs)
+    axes[2, 0].plot(sim.r, **kwargs)
     # Horizontal line at old steady state
-    yvalues = 0 if deviations else eq.r
-    axes[2, 0].axhline(yvalues, **kwargs_init)
+    axes[2, 0].axhline(eq.r, **kwargs_init)
     # Horizontal line at new steady state
     if eq_new is not None:
-        yvalues = eq_new.r - eq.r if deviations else eq_new.r
-        axes[2, 0].axhline(yvalues, **kwargs_new)
+        axes[2, 0].axhline(eq_new.r, **kwargs_new)
     axes[2, 0].set_xlabel("Period")
-    axes[2, 0].set_ylabel(ylabel)
     axes[2, 0].set_title("Interest rate $r$")
+    axes[2, 0].yaxis.set_major_formatter(PercentFormatter(xmax=1, decimals=0))
 
     # Turn off last subplot
     axes[2, 1].axis('off')
@@ -478,16 +478,16 @@ if __name__ == '__main__':
     par = Parameters()
 
     # Solve for the equilibrium numerically
-    eq = compute_equilibrium(par)
+    eq = compute_steady_state(par)
 
     # Print equilibrium quantities and prices
-    print_equilibrium(eq)
+    print_steady_state(eq)
 
     # Transition dynamics
     par = Parameters(gamma=1)
 
     # Initial steady state
-    eq_init = compute_equilibrium(par)
+    eq_init = compute_steady_state(par)
 
     # Number of periods to simulate
     T = 10
@@ -496,10 +496,10 @@ if __name__ == '__main__':
     z_new = 0.9 * par.z
 
     # Perform simulation
-    sim = simulate(z_new, eq_init, T=T)
+    sim = simulate_olg(z_new, eq_init, T=T)
 
     # Compute new steady state
-    eq_new = compute_equilibrium(par=Parameters(gamma=par.gamma, z=z_new))
+    eq_new = compute_steady_state(par=Parameters(gamma=par.gamma, z=z_new))
 
     # Plot simulation results
     plot_simulation(eq_init, sim, eq_new)
