@@ -35,47 +35,46 @@ def gini(x):
     return G
 
 
-def compute_lognorm_mean_var(mu, sigma):
+def simulate_ar1(x0, mu, rho, sigma, T, rng=None):
     """
-    Compute the mean and variance of a lognormally distribution
-    variable X with log X ~ Normal(mu, sigma^2)
+    Simulate an AR(1) process.
 
     Parameters
     ----------
+    x0 : float
+        The initial value of the process.
     mu : float
-        The mean of the normal distribution.
+        Intercept.
+    rho : float
+        The autoregressive parameter.
     sigma : float
-        The standard deviation of the normal distribution.
+        The standard deviation of the noise term.
+    T : int
+        The number of time periods to simulate.
+    rng : Generator, optional
+        Random number generator to use.
 
     Returns
     -------
-    float
-        The mean of the lognormal distribution.
-    float
-        The variance of the lognormal distribution.
+    numpy.ndarray
+        An array of length `n` containing the simulated AR(1) process.
     """
 
-    mean = np.exp(mu + sigma**2/2)
-    var = (np.exp(sigma**2) - 1) * np.exp(2*mu + sigma**2)
+    # Create an array to store the simulated values
+    x = np.zeros(T+1)
 
-    return mean, var
+    # Set the initial value
+    x[0] = x0
 
+    # Create RNG instance
+    if rng is None:
+        rng = np.random.default_rng(seed=1234)
+        
+    # Draw random shocks
+    eps = rng.normal(loc=0, scale=sigma, size=T)
 
-def compute_return_ar1_mean(par):
-    """
-    Compute the unconditional mean return of returns are AR(1) in logs.
+    # Simulate the AR(1) process
+    for i in range(T):
+        x[i+1] = mu + rho * x[i] + eps[i]
 
-    Parameters
-    ----------
-    par : Parameters
-
-    Returns
-    -------
-    float
-        The unconditional mean of gross returns.
-    """
-
-    mean = np.exp(par.mu_r/(1-par.rho_r) + par.sigma_r**2/2/(1-par.rho_r**2))
-
-    return mean
-
+    return x
