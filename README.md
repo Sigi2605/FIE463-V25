@@ -8,7 +8,7 @@ Course material for spring term 2025 (V25)
 Author: Richard Foltyn
 
 
-## Course outline (preliminary and incomplete)
+## Course outline
 
 `L` = Lecture, `W` = Workshop, `O` = Optional
 
@@ -34,8 +34,12 @@ Author: Richard Foltyn
 |  —   | — | `O` | Markov chains & Consumption-based asset pricing | [Notebook](lectures/lecture_markov/lecture_markov.ipynb), [PDF](lectures/lecture_markov/lecture_markov.pdf) | —  |
 |  9   | Tue, Mar 11 | `L` | Introduction to pandas | [Notebook](lectures/lecture09/lecture09.ipynb), [PDF](lectures/lecture09/lecture09.pdf) | —  |
 |      | Thu, Mar 13 | `W` | Introduction to pandas | [Notebook](workshops/workshop09/workshop09.ipynb), [PDF](workshops/workshop09/workshop09.pdf) | TBA |
-|  10   | Tue, Mar 18 | `L` | Aggregation and merging | [Notebook](lectures/lecture10/lecture10.ipynb), [PDF](lectures/lecture10/lecture10.pdf) | —  |
+|  10  | Tue, Mar 18 | `L` | Aggregation and merging | [Notebook](lectures/lecture10/lecture10.ipynb), [PDF](lectures/lecture10/lecture10.pdf) | —  |
 |      | Thu, Mar 20 | `W` | Aggregation and merging | [Notebook](workshops/workshop10/workshop10.ipynb), [PDF](workshops/workshop10/workshop10.pdf) | TBA |
+|  11  | Tue, Mar 25 | `L` | Introduction to scikit-learn | [Notebook](lectures/lecture11/lecture11.ipynb), [PDF](lectures/lecture11/lecture11.pdf) | —  |
+|      | Thu, Mar 27 | `W` | Introduction to scikit-learn | [Notebook](workshops/workshop11/workshop11.ipynb), [PDF](workshops/workshop11/workshop11.pdf) | TBA |
+|  12  | Tue, Apr 1 | `L` | Linear models for regression and classification | TBA | —  |
+|      | Thu, Apr 3 | `W` | Linear models for regression and classification | TBA | TBA |
 
 
 
