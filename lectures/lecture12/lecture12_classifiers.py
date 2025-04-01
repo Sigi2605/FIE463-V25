@@ -245,7 +245,7 @@ def plot_generic_confusion_matrix():
     cm = ListedColormap(['#ffb7b5', '#93feb6'])
     # Square annotations
     ann = [
-        'True positive (TP)',
+        'True positives (TP)',
         'False negatives (FN)',
         'False positives (FP)',
         'True negatives (TN)',
